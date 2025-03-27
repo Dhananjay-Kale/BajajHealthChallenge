@@ -11,7 +11,7 @@ public class BajajHealthChallenge {
             }
             reader.close();
 
-            // Extract first_name and roll_number from JSON
+            // Extract first_name and roll_number from JSON  
             var jsonString = jsonContent.toString();
             var firstName = extractValue(jsonString, "first_name").toLowerCase();
             var rollNumber = extractValue(jsonString, "roll_number").toLowerCase();
